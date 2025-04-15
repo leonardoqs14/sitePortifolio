@@ -88,6 +88,10 @@ header nav.menuDesktop ul li{
 
 /* Estilo do menu mobile */
 
+.btn-abrir-menu{
+    display: none;
+}
+
 .btn-abrir-menu i{
     color: #fd6216;
     font-size: 40px;
@@ -413,6 +417,10 @@ footer img{
     /* CABEÇALHO */
     .menuDesktop, .btnContato{
         display: none;
+    }
+
+    .btn-abrir-menu{
+        display: block;
     }
 
     /* Topo do Site */
